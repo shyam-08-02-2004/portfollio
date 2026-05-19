@@ -115,8 +115,8 @@ const Hero: React.FC = () => {
               className="animate-float hero-img-wrapper"
             >
               <img
-                src="/hero_coding_avatar.png"
-                alt="Shyam Babu Dangi Coding Avatar"
+                src="/shyam_profile.jpg"
+                alt="Shyam Babu Dangi Portrait"
                 style={{
                   width: '100%',
                   height: 'auto',
