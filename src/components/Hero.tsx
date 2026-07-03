@@ -63,8 +63,10 @@ const Hero: React.FC = () => {
             </div>
 
             <div
+              className="hero-stats"
               style={{
                 display: 'flex',
+                flexWrap: 'wrap',
                 gap: '32px',
                 marginTop: '32px',
                 paddingTop: '32px',
@@ -72,7 +74,7 @@ const Hero: React.FC = () => {
               }}
             >
               <div>
-                <h4 style={{ fontSize: '1.8rem', fontWeight: 700, color: 'var(--text-main)' }}>7.60</h4>
+                <h4 style={{ fontSize: '1.8rem', fontWeight: 700, color: 'var(--text-main)' }}>7.69</h4>
                 <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>B.Tech CGPA</p>
               </div>
               <div>
@@ -135,6 +137,7 @@ const Hero: React.FC = () => {
           .hero-grid { grid-template-columns: 1fr !important; gap: 48px !important; text-align: center; }
           .hero-grid .animate-fade-in-left { alignItems: center; }
           .hero-img-wrapper { maxWidth: 450px; margin: 0 auto; }
+          .hero-stats { justify-content: center; text-align: center; }
         }
       `}</style>
     </section>

@@ -93,7 +93,7 @@ const About: React.FC = () => {
               <p style={{ fontSize: '1.1rem', color: 'var(--color-cyan)', fontWeight: 500 }}>
                 Sagar Institute of Research and Technology, Bhopal
               </p>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '8px' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '8px', flexWrap: 'wrap', gap: '8px' }}>
                 <span style={{ fontSize: '1rem', color: 'var(--text-muted)' }}>Graduation: 2026</span>
                 <span
                   style={{
@@ -106,7 +106,7 @@ const About: React.FC = () => {
                     border: '1px solid var(--color-purple)',
                   }}
                 >
-                  7.60 CGPA
+                  7.69 CGPA
                 </span>
               </div>
             </div>
