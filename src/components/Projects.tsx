@@ -349,7 +349,7 @@ const Projects: React.FC = () => {
                   </span>
                 </div>
                 <img
-                  src="/dragon_tiger_project_mockup.jpg"
+                  src="/dragon_tiger_project_mockup.png"
                   alt="Dragon Tiger Casino UI Mockup"
                   style={{
                     width: '100%',
