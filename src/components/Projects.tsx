@@ -157,7 +157,7 @@ const Projects: React.FC = () => {
                   <Code size={20} /> View Source Code
                 </a>
                 <a
-                  href="https://wonderlust-eta.vercel.app/"
+                  href="https://wonderlust-eta.vercel.app/listings"
                   target="_blank"
                   rel="noreferrer"
                   className="btn-secondary"
