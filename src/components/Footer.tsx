@@ -61,7 +61,7 @@ const Footer: React.FC = () => {
           {/* Social Icons */}
           <div style={{ display: 'flex', gap: '16px' }}>
             <a
-              href="https://github.com"
+              href="https://github.com/shyam-08-02-2004"
               target="_blank"
               rel="noreferrer"
               style={{
@@ -79,7 +79,7 @@ const Footer: React.FC = () => {
               <Code size={22} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/shyam-dangi-6aa942289"
               target="_blank"
               rel="noreferrer"
               style={{

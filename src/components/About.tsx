@@ -10,7 +10,7 @@ const About: React.FC = () => {
     },
     {
       icon: <Brain size={32} style={{ color: 'var(--color-purple)' }} />,
-      title: 'Analytical & Problem Solving',
+      title: 'Analytical & Problem-Solving Skills',
       description: 'Strong analytical mindset with a passion for breaking down complex challenges into elegant, efficient solutions.',
     },
     {
@@ -51,7 +51,7 @@ const About: React.FC = () => {
           <div className="glass-card" style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
             <h3 style={{ fontSize: '1.8rem', color: 'var(--text-main)' }}>Career Objective</h3>
             <p style={{ fontSize: '1.1rem', color: 'var(--text-muted)', lineHeight: 1.7 }}>
-              Motivated and detail-oriented B.Tech (CSE) student with a strong foundation in Java, Data Structures & Algorithms, and Full-Stack Web Development. Seeking an entry-level software development role where I can apply my problem-solving skills, build scalable applications, and grow as a professional while contributing to impactful projects.
+              Motivated B.Tech (Computer Science) graduate with strong knowledge of Java, Data Structures & Algorithms, and MERN Stack Development. Passionate about building scalable web applications using React.js, Node.js, Express.js, and MongoDB. Seeking an entry-level Software Developer role where I can contribute, learn, and grow while developing high-quality software solutions.
             </p>
             <div
               style={{
@@ -88,10 +88,10 @@ const About: React.FC = () => {
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
               <h4 style={{ fontSize: '1.4rem', color: 'var(--text-main)', fontWeight: 600 }}>
-                B.Tech in Computer Science & Engineering (CSE)
+                BTech in Computer Science Engineering
               </h4>
               <p style={{ fontSize: '1.1rem', color: 'var(--color-cyan)', fontWeight: 500 }}>
-                Sagar Institute of Research and Technology, Bhopal
+                Sagar Institute of Research and Technology College Bhopal
               </p>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '8px', flexWrap: 'wrap', gap: '8px' }}>
                 <span style={{ fontSize: '1rem', color: 'var(--text-muted)' }}>Graduation: 2026</span>

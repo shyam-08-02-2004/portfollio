@@ -4,33 +4,33 @@ import { Code, Globe, Database, Wrench, Lightbulb } from 'lucide-react';
 const Skills: React.FC = () => {
   const skillCategories = [
     {
-      title: 'Programming Languages',
+      title: 'Programming Language',
       icon: <Code size={28} style={{ color: 'var(--color-cyan)' }} />,
-      skills: ['Java', 'Core Java', 'Object-Oriented Programming (OOPs)', 'Data Structures & Algorithms (DSA)'],
+      skills: ['Java (Core Java, OOPs, DSA)'],
       color: 'var(--color-cyan)',
     },
     {
-      title: 'Web Technologies',
+      title: 'Frontend',
       icon: <Globe size={28} style={{ color: 'var(--color-purple)' }} />,
-      skills: ['HTML5', 'CSS3', 'JavaScript (ES6+)', 'React.js', 'Node.js'],
+      skills: ['HTML', 'CSS', 'JavaScript', 'React.js', 'Bootstrap'],
       color: 'var(--color-purple)',
     },
     {
-      title: 'Databases',
+      title: 'Database',
       icon: <Database size={28} style={{ color: 'var(--color-indigo)' }} />,
-      skills: ['MySQL', 'Relational Database Design', 'SQL Queries'],
+      skills: ['MySQL', 'Mongodb', 'Mongoose'],
       color: 'var(--color-indigo)',
     },
     {
       title: 'Tools & Platforms',
       icon: <Wrench size={28} style={{ color: '#ec4899' }} />,
-      skills: ['Visual Studio Code', 'Git (Version Control)', 'GitHub', 'Vite', 'Postman'],
+      skills: ['Visual Studio Code', 'Git (Basic)', 'GitHub'],
       color: '#ec4899',
     },
     {
-      title: 'Core Concepts',
+      title: 'Concepts',
       icon: <Lightbulb size={28} style={{ color: '#f59e0b' }} />,
-      skills: ['Problem Solving', 'RESTful APIs', 'Responsive Web Design', 'Client-Server Architecture'],
+      skills: ['REST APIs', 'CRUD Operations', 'Responsive Design'],
       color: '#f59e0b',
     },
   ];

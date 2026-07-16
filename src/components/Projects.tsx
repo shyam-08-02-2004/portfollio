@@ -4,41 +4,49 @@ import { ExternalLink, Code, MapPin, Server, ShieldCheck, Smartphone, Lock, Game
 const Projects: React.FC = () => {
   const wonderlustFeatures = [
     {
-      icon: <Server size={22} style={{ color: 'var(--color-cyan)' }} />,
-      text: 'Backend logic & RESTful APIs using Node.js for itinerary management.',
+      icon: <Code size={22} style={{ color: 'var(--color-cyan)' }} />,
+      text: 'Built a full-stack travel booking platform.',
     },
     {
-      icon: <MapPin size={22} style={{ color: 'var(--color-purple)' }} />,
-      text: 'Google Maps API integration for interactive maps, distance, and route planning.',
-    },
-    {
-      icon: <ShieldCheck size={22} style={{ color: 'var(--color-indigo)' }} />,
-      text: 'Secure user authentication and personalized dashboards for trip tracking.',
-    },
-    {
-      icon: <Smartphone size={22} style={{ color: '#ec4899' }} />,
-      text: 'Fully responsive and intuitive UI ensuring a seamless multi-device experience.',
-    },
-  ];
-
-  const techStack = ['React.js', 'Node.js', 'REST APIs', 'Google Maps API', 'MySQL', 'Express.js', 'CSS3'];
-
-  const dragonTigerFeatures = [
-    {
-      icon: <Lock size={22} style={{ color: 'var(--color-cyan)' }} />,
-      text: 'Secure user registration, authentication, and session management.',
-    },
-    {
-      icon: <Gamepad2 size={22} style={{ color: 'var(--color-purple)' }} />,
-      text: 'Interactive Dragon vs Tiger betting mechanics with real-time UI updates.',
+      icon: <Server size={22} style={{ color: 'var(--color-purple)' }} />,
+      text: 'Developed secure RESTful APIs using Node.js and Express.js.',
     },
     {
       icon: <Database size={22} style={{ color: 'var(--color-indigo)' }} />,
-      text: 'Client-side state management for user balances and betting history.',
+      text: 'Implemented CRUD operations for travel listings.',
     },
     {
-      icon: <LayoutTemplate size={22} style={{ color: '#ec4899' }} />,
-      text: 'Premium dark-mode casino aesthetic with elegant components and animations.',
+      icon: <MapPin size={22} style={{ color: '#ec4899' }} />,
+      text: 'Integrated Google Maps API for location and route planning.',
+    },
+    {
+      icon: <ShieldCheck size={22} style={{ color: 'var(--color-cyan)' }} />,
+      text: 'Added user authentication and authorization.',
+    },
+    {
+      icon: <Smartphone size={22} style={{ color: 'var(--color-purple)' }} />,
+      text: 'Designed responsive UI for desktop and mobile.',
+    },
+    {
+      icon: <Database size={22} style={{ color: 'var(--color-indigo)' }} />,
+      text: 'Managed data using MongoDB and Mongoose.',
+    },
+  ];
+
+  const techStack = ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Mongoose', 'REST APIs', 'Google Maps API'];
+
+  const dragonTigerFeatures = [
+    {
+      icon: <Gamepad2 size={22} style={{ color: 'var(--color-cyan)' }} />,
+      text: 'Developed a responsive Dragon Tiger gaming application with real-time betting functionality.',
+    },
+    {
+      icon: <Lock size={22} style={{ color: 'var(--color-purple)' }} />,
+      text: 'Implemented secure user authentication and wallet management.',
+    },
+    {
+      icon: <LayoutTemplate size={22} style={{ color: 'var(--color-indigo)' }} />,
+      text: 'Designed a premium, mobile-friendly user interface.',
     },
   ];
 

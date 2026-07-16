@@ -1,22 +1,22 @@
 import React from 'react';
-import { Award, Compass, Trophy } from 'lucide-react';
+import { Award, Camera, Cpu } from 'lucide-react';
 
 const Certifications: React.FC = () => {
   const certifications = [
     {
-      title: 'Java Programming Language',
+      title: 'Java Programming language',
       issuer: 'Core Industry Certification',
       icon: <Award size={32} style={{ color: 'var(--color-cyan)' }} />,
       color: 'var(--color-cyan)',
     },
     {
-      title: 'Data Structures & Algorithms in Java',
+      title: 'Data Structures and Algorithms in Java',
       issuer: 'Advanced Problem Solving',
       icon: <Award size={32} style={{ color: 'var(--color-purple)' }} />,
       color: 'var(--color-purple)',
     },
     {
-      title: 'Full-Stack Web Development',
+      title: 'Web Development',
       issuer: 'Modern Web Technologies',
       icon: <Award size={32} style={{ color: 'var(--color-indigo)' }} />,
       color: 'var(--color-indigo)',
@@ -25,14 +25,14 @@ const Certifications: React.FC = () => {
 
   const hobbies = [
     {
-      title: 'Travelling & Exploring Cultures',
-      description: 'Passionate about discovering new destinations, experiencing diverse cultural paradigms, and broadening worldviews.',
-      icon: <Compass size={32} style={{ color: '#ec4899' }} />,
+      title: 'Photography',
+      description: 'Capturing moments and exploring visual storytelling through the lens.',
+      icon: <Camera size={32} style={{ color: '#ec4899' }} />,
     },
     {
-      title: 'Playing Cricket',
-      description: 'Enthusiastic team player who enjoys the strategic and physical dynamics of competitive cricket.',
-      icon: <Trophy size={32} style={{ color: '#f59e0b' }} />,
+      title: 'Learning New Technologies',
+      description: 'Constantly exploring emerging frameworks, tools, and best practices to stay ahead.',
+      icon: <Cpu size={32} style={{ color: '#f59e0b' }} />,
     },
   ];
 
