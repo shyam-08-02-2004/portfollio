@@ -234,7 +234,7 @@ const Contact: React.FC = () => {
 
                 <button
                   type="submit"
-                  className="btn-primary"
+                  className="btn-primary submit-btn"
                   disabled={submitting}
                   style={{
                     width: 'fit-content',
@@ -261,6 +261,9 @@ const Contact: React.FC = () => {
         @media (max-width: 992px) {
           .contact-grid { grid-template-columns: 1fr !important; gap: 48px !important; }
           .form-row { grid-template-columns: 1fr !important; }
+        }
+        @media (max-width: 768px) {
+          .submit-btn { width: 100% !important; justify-content: center !important; }
         }
       `}</style>
     </section>
