@@ -157,7 +157,7 @@ const Projects: React.FC = () => {
                   <Code size={20} /> View Source Code
                 </a>
                 <a
-                  href="https://github.com"
+                  href="https://wonderlust-eta.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                   className="btn-secondary"
@@ -195,7 +195,7 @@ const Projects: React.FC = () => {
                   <div style={{ width: '12px', height: '12px', borderRadius: '50%', background: '#f59e0b' }} />
                   <div style={{ width: '12px', height: '12px', borderRadius: '50%', background: '#10b981' }} />
                   <span style={{ marginLeft: '16px', fontSize: '0.85rem', color: 'var(--text-muted)', fontFamily: 'var(--font-mono)' }}>
-                    wonderlust-app.shyam.dev
+                    wonderlust-eta.vercel.app
                   </span>
                 </div>
                 <img
