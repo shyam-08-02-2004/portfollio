@@ -307,7 +307,7 @@ const Projects: React.FC = () => {
                   <Code size={20} /> View Source Code
                 </a>
                 <a
-                  href="https://dragon-tiger.vercel.app"
+                  href="https://dragon-tiger-shyam-babu-s-projects.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                   className="btn-secondary"
