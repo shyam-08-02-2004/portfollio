@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
               <span className="gradient-text">Shyam.dev</span>
             </a>
             <p style={{ fontSize: '1rem', color: 'var(--text-muted)', lineHeight: 1.6 }}>
-              B.Tech CSE Student & Full-Stack Web Developer building high-performance web applications and RESTful services.
+              Full Stack MERN Developer building high-performance web applications, secure REST APIs, and modern user experiences.
             </p>
           </div>
 
@@ -79,7 +79,7 @@ const Footer: React.FC = () => {
               <Code size={22} />
             </a>
             <a
-              href="https://www.linkedin.com/in/shyam-dangi-6aa942289"
+              href="https://linkedin.com/in/shyam-dangi"
               target="_blank"
               rel="noreferrer"
               style={{

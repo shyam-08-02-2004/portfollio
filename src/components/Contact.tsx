@@ -47,9 +47,9 @@ const Contact: React.FC = () => {
   const contactDetails = [
     {
       icon: <Phone size={28} style={{ color: 'var(--color-cyan)' }} />,
-      title: 'Call Me',
-      value: '7509766655',
-      href: 'tel:7509766655',
+      title: 'Call / WhatsApp',
+      value: '+91 7509766655',
+      href: 'tel:+917509766655',
     },
     {
       icon: <Mail size={28} style={{ color: 'var(--color-purple)' }} />,
@@ -60,7 +60,7 @@ const Contact: React.FC = () => {
     {
       icon: <MapPin size={28} style={{ color: 'var(--color-indigo)' }} />,
       title: 'Location',
-      value: 'Bhopal, Madhya Pradesh',
+      value: 'Indore, Madhya Pradesh, India',
       href: '#',
     },
   ];

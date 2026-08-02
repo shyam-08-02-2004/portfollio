@@ -1,36 +1,42 @@
 import React from 'react';
-import { Code, Globe, Database, Wrench, Lightbulb } from 'lucide-react';
+import { Code, Globe, Database, Server, Cloud, Cpu } from 'lucide-react';
 
 const Skills: React.FC = () => {
   const skillCategories = [
     {
-      title: 'Programming Language',
+      title: 'Languages',
       icon: <Code size={28} style={{ color: 'var(--color-cyan)' }} />,
-      skills: ['Java (Core Java, OOPs, DSA)'],
+      skills: ['Java', 'JavaScript', 'HTML5', 'CSS3'],
       color: 'var(--color-cyan)',
     },
     {
       title: 'Frontend',
       icon: <Globe size={28} style={{ color: 'var(--color-purple)' }} />,
-      skills: ['HTML', 'CSS', 'JavaScript', 'React.js', 'Bootstrap'],
+      skills: ['React.js', 'React Router', 'Context API', 'Tailwind CSS', 'Bootstrap', 'Vite'],
       color: 'var(--color-purple)',
+    },
+    {
+      title: 'Backend',
+      icon: <Server size={28} style={{ color: '#ec4899' }} />,
+      skills: ['Node.js', 'Express.js', 'REST APIs', 'JWT Authentication', 'Role-Based Auth', 'MVC Architecture'],
+      color: '#ec4899',
     },
     {
       title: 'Database',
       icon: <Database size={28} style={{ color: 'var(--color-indigo)' }} />,
-      skills: ['MySQL', 'Mongodb', 'Mongoose'],
+      skills: ['MongoDB', 'Mongoose', 'MySQL'],
       color: 'var(--color-indigo)',
     },
     {
-      title: 'Tools & Platforms',
-      icon: <Wrench size={28} style={{ color: '#ec4899' }} />,
-      skills: ['Visual Studio Code', 'Git (Basic)', 'GitHub'],
-      color: '#ec4899',
+      title: 'Tools & Cloud',
+      icon: <Cloud size={28} style={{ color: '#10b981' }} />,
+      skills: ['Git', 'GitHub', 'VS Code', 'npm', 'Vercel', 'Render', 'MongoDB Cloud'],
+      color: '#10b981',
     },
     {
-      title: 'Concepts',
-      icon: <Lightbulb size={28} style={{ color: '#f59e0b' }} />,
-      skills: ['REST APIs', 'CRUD Operations', 'Responsive Design'],
+      title: 'Concepts & Architecture',
+      icon: <Cpu size={28} style={{ color: '#f59e0b' }} />,
+      skills: ['Responsive Design', 'CRUD', 'OOP', 'DSA', 'API Integration', 'Git Workflow', 'MVC Architecture'],
       color: '#f59e0b',
     },
   ];
@@ -43,14 +49,14 @@ const Skills: React.FC = () => {
             Technical <span className="gradient-text">Skills</span>
           </h2>
           <p style={{ fontSize: '1.15rem', color: 'var(--text-muted)', maxWidth: '700px', margin: '0 auto' }}>
-            A comprehensive overview of my technical toolkit, spanning backend programming, frontend web development, and foundational computer science concepts.
+            A comprehensive breakdown of my technical expertise across full-stack web development, backend engineering, cloud tools, and computer science fundamentals.
           </p>
         </div>
 
         <div
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
             gap: '32px',
           }}
         >
@@ -78,21 +84,21 @@ const Skills: React.FC = () => {
                 >
                   {category.icon}
                 </div>
-                <h3 style={{ fontSize: '1.5rem', color: 'var(--text-main)', fontWeight: 700 }}>
+                <h3 style={{ fontSize: '1.4rem', color: 'var(--text-main)', fontWeight: 700 }}>
                   {category.title}
                 </h3>
               </div>
 
-              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px' }}>
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
                 {category.skills.map((skill, sIdx) => (
                   <div
                     key={sIdx}
                     style={{
                       background: 'var(--bg-primary)',
                       border: '1px solid var(--border-glass)',
-                      padding: '10px 18px',
+                      padding: '8px 16px',
                       borderRadius: '20px',
-                      fontSize: '1rem',
+                      fontSize: '0.95rem',
                       fontWeight: 500,
                       color: 'var(--text-main)',
                       transition: 'all 0.3s ease',

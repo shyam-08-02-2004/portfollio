@@ -1,27 +1,27 @@
 import React from 'react';
-import { GraduationCap, Users, Brain, Clock, ShieldCheck } from 'lucide-react';
+import { GraduationCap, Users, Brain, Code, Camera } from 'lucide-react';
 
 const About: React.FC = () => {
-  const softSkills = [
+  const highlights = [
     {
-      icon: <Users size={32} style={{ color: 'var(--color-cyan)' }} />,
-      title: 'Team Collaboration',
-      description: 'Effective communicator who thrives in collaborative team environments and values collective success.',
+      icon: <Code size={32} style={{ color: 'var(--color-cyan)' }} />,
+      title: 'Full Stack MERN Development',
+      description: 'Experience in developing scalable web applications using React.js, Node.js, Express.js, and MongoDB with secure REST APIs.',
     },
     {
       icon: <Brain size={32} style={{ color: 'var(--color-purple)' }} />,
-      title: 'Analytical & Problem-Solving Skills',
-      description: 'Strong analytical mindset with a passion for breaking down complex challenges into elegant, efficient solutions.',
+      title: 'Problem Solving & DSA',
+      description: 'Solid foundation in Data Structures, Algorithms using Java, Object-Oriented Programming, and clean MVC Architecture.',
     },
     {
-      icon: <ShieldCheck size={32} style={{ color: 'var(--color-indigo)' }} />,
-      title: 'Decision Making',
-      description: 'Capable of making sound, reasoned decisions under pressure while balancing technical and project trade-offs.',
+      icon: <Users size={32} style={{ color: 'var(--color-indigo)' }} />,
+      title: 'Git Workflow & API Integration',
+      description: 'Adept at version control with Git/GitHub, integrating third-party APIs (Google Maps, Razorpay, Cloudinary), and Vercel deployment.',
     },
     {
-      icon: <Clock size={32} style={{ color: '#ec4899' }} />,
-      title: 'Time Management',
-      description: 'Highly organized and diligent, ensuring project milestones and strict deadlines are met consistently.',
+      icon: <Camera size={32} style={{ color: '#ec4899' }} />,
+      title: 'Interests & Photography',
+      description: 'Passionate about building full-stack applications, exploring emerging tech stack, problem-solving, and visual photography.',
     },
   ];
 
@@ -33,7 +33,7 @@ const About: React.FC = () => {
             About <span className="gradient-text">Me</span>
           </h2>
           <p style={{ fontSize: '1.15rem', color: 'var(--text-muted)', maxWidth: '700px', margin: '0 auto' }}>
-            A dedicated learner and aspiring software engineer with a comprehensive academic background and a passion for modern web technologies.
+            Full Stack MERN Developer passionate about building production-ready software, secure REST APIs, and continuously learning modern technologies.
           </p>
         </div>
 
@@ -47,11 +47,11 @@ const About: React.FC = () => {
           }}
           className="about-grid"
         >
-          {/* Objective & Philosophy */}
+          {/* Summary / Profile */}
           <div className="glass-card" style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
-            <h3 style={{ fontSize: '1.8rem', color: 'var(--text-main)' }}>Career Objective</h3>
-            <p style={{ fontSize: '1.1rem', color: 'var(--text-muted)', lineHeight: 1.7 }}>
-              Motivated B.Tech (Computer Science) graduate with strong knowledge of Java, Data Structures & Algorithms, and MERN Stack Development. Passionate about building scalable web applications using React.js, Node.js, Express.js, and MongoDB. Seeking an entry-level Software Developer role where I can contribute, learn, and grow while developing high-quality software solutions.
+            <h3 style={{ fontSize: '1.8rem', color: 'var(--text-main)' }}>Professional Summary</h3>
+            <p style={{ fontSize: '1.1rem', color: 'var(--text-muted)', lineHeight: 1.8 }}>
+              Full Stack MERN Developer with hands-on experience building scalable web applications using React.js, Node.js, Express.js, MongoDB and JavaScript. Developed secure REST APIs, JWT authentication and responsive user interfaces through multiple end-to-end projects. Passionate about building production-ready software and continuously learning modern technologies.
             </p>
             <div
               style={{
@@ -62,7 +62,7 @@ const About: React.FC = () => {
               }}
             >
               <p style={{ fontSize: '1rem', fontStyle: 'italic', color: 'var(--text-main)' }}>
-                "I believe in writing clean, maintainable code and continuously challenging myself to learn emerging technologies and architectural best practices."
+                "Building robust, high-performance web applications with clean architecture and modern user experiences."
               </p>
             </div>
           </div>
@@ -87,14 +87,17 @@ const About: React.FC = () => {
             </div>
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-              <h4 style={{ fontSize: '1.4rem', color: 'var(--text-main)', fontWeight: 600 }}>
-                BTech in Computer Science Engineering
+              <h4 style={{ fontSize: '1.35rem', color: 'var(--text-main)', fontWeight: 700 }}>
+                Bachelor of Technology (B.Tech)
               </h4>
-              <p style={{ fontSize: '1.1rem', color: 'var(--color-cyan)', fontWeight: 500 }}>
-                Sagar Institute of Research and Technology College Bhopal
+              <p style={{ fontSize: '1.05rem', color: 'var(--color-cyan)', fontWeight: 600 }}>
+                Sagar Institute of Research & Technology (SIRT), Bhopal
               </p>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '8px', flexWrap: 'wrap', gap: '8px' }}>
-                <span style={{ fontSize: '1rem', color: 'var(--text-muted)' }}>Graduation: 2026</span>
+              <p style={{ fontSize: '1rem', color: 'var(--text-muted)' }}>
+                Computer Science and Engineering • Bhopal (MP)
+              </p>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '12px', flexWrap: 'wrap', gap: '8px' }}>
+                <span style={{ fontSize: '1rem', color: 'var(--text-muted)', fontWeight: 500 }}>2022 – 2026</span>
                 <span
                   style={{
                     background: 'rgba(168, 85, 247, 0.15)',
@@ -106,17 +109,17 @@ const About: React.FC = () => {
                     border: '1px solid var(--color-purple)',
                   }}
                 >
-                  7.69 CGPA
+                  7.69 / 10 CGPA
                 </span>
               </div>
             </div>
           </div>
         </div>
 
-        {/* Soft Skills Grid */}
+        {/* Highlights Grid */}
         <div>
           <h3 style={{ fontSize: '2rem', fontWeight: 700, textAlign: 'center', marginBottom: '32px' }}>
-            Soft <span className="gradient-text">Skills</span>
+            Core <span className="gradient-text">Competencies & Interests</span>
           </h3>
           <div
             style={{
@@ -125,7 +128,7 @@ const About: React.FC = () => {
               gap: '24px',
             }}
           >
-            {softSkills.map((skill, index) => (
+            {highlights.map((item, index) => (
               <div key={index} className="glass-panel" style={{ padding: '32px', display: 'flex', flexDirection: 'column', gap: '16px' }}>
                 <div
                   style={{
@@ -139,10 +142,10 @@ const About: React.FC = () => {
                     border: '1px solid var(--border-glass)',
                   }}
                 >
-                  {skill.icon}
+                  {item.icon}
                 </div>
-                <h4 style={{ fontSize: '1.3rem', color: 'var(--text-main)', fontWeight: 600 }}>{skill.title}</h4>
-                <p style={{ fontSize: '1rem', color: 'var(--text-muted)', lineHeight: 1.6 }}>{skill.description}</p>
+                <h4 style={{ fontSize: '1.3rem', color: 'var(--text-main)', fontWeight: 600 }}>{item.title}</h4>
+                <p style={{ fontSize: '1rem', color: 'var(--text-muted)', lineHeight: 1.6 }}>{item.description}</p>
               </div>
             ))}
           </div>
