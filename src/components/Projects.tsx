@@ -10,18 +10,19 @@ const Projects: React.FC = () => {
       category: ['mern', 'ecommerce'],
       title: 'Zen-G Wear',
       subtitle: 'Full Stack E-Commerce Platform',
-      tagColor: 'var(--color-cyan)',
+      tagColor: '#38bdf8',
       domain: 'zen-g-wear.vercel.app',
-      image: '/zengwear_project_mockup.jpg',
-      description: 'A premium full-stack e-commerce web application engineered for seamless online shopping, product catalog management, secure JWT user authentication, and role-based admin inventory controls.',
+      image: '/zengwear_real_app.png',
+      featured: true,
+      description: 'A production-ready full-stack e-commerce platform built with React.js, Node.js, Express.js, and MongoDB. Features real-time product filtering (Men, Women, Kids, Watches, Shoes), sort by newest arrivals, flash sale countdown timers, JWT auth, and role-based Admin dashboard.',
       liveUrl: 'https://zen-g-wear.vercel.app',
       githubUrl: 'https://github.com/shyam-08-02-2004',
       techStack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS', 'JWT', 'Vite', 'Vercel'],
       highlights: [
-        { icon: <ShoppingBag size={20} style={{ color: 'var(--color-cyan)' }} />, text: 'Developed full-stack shopping workflow using React.js and Node.js.' },
-        { icon: <ShieldCheck size={20} style={{ color: 'var(--color-purple)' }} />, text: 'Implemented secure JWT authentication and role-based admin access control.' },
-        { icon: <Server size={20} style={{ color: 'var(--color-indigo)' }} />, text: 'Built an interactive Admin Dashboard for product and inventory analytics.' },
-        { icon: <Smartphone size={20} style={{ color: '#ec4899' }} />, text: 'Designed mobile-first UI with dark mode aesthetics and micro-animations.' },
+        { icon: <ShoppingBag size={20} style={{ color: 'var(--color-cyan)' }} />, text: 'Multi-category catalog (Men, Women, Kids, Shoes, Watches) with instant search & filters.' },
+        { icon: <ShieldCheck size={20} style={{ color: 'var(--color-purple)' }} />, text: 'Secure JWT authentication & role-based Admin Dashboard for inventory management.' },
+        { icon: <Server size={20} style={{ color: 'var(--color-indigo)' }} />, text: 'Real-time flash sale countdown timers with dynamic discount calculations.' },
+        { icon: <Smartphone size={20} style={{ color: '#ec4899' }} />, text: 'Fully responsive mobile-first UI with dark mode aesthetics and high-availability Vercel hosting.' },
       ],
     },
     {
@@ -157,6 +158,27 @@ const Projects: React.FC = () => {
               >
                 {/* Project Details */}
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
+                  {project.featured && (
+                    <div
+                      style={{
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        gap: '6px',
+                        background: 'linear-gradient(135deg, rgba(6, 182, 212, 0.2), rgba(168, 85, 247, 0.2))',
+                        border: '1px solid var(--color-cyan)',
+                        padding: '4px 14px',
+                        borderRadius: '20px',
+                        fontSize: '0.8rem',
+                        fontWeight: 700,
+                        color: 'var(--color-cyan)',
+                        width: 'fit-content',
+                        letterSpacing: '0.05em',
+                      }}
+                    >
+                      ★ FLAGSHIP MERN PROJECT
+                    </div>
+                  )}
+
                   <div style={{ display: 'flex', alignItems: 'center', gap: '16px', flexWrap: 'wrap' }}>
                     <h3 style={{ fontSize: '2.4rem', fontWeight: 900, color: 'var(--text-main)' }}>
                       {project.title}
