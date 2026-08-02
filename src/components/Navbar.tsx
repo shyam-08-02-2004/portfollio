@@ -36,7 +36,7 @@ const Navbar: React.FC = () => {
         zIndex: 1000,
         transition: 'all 0.4s cubic-bezier(0.16, 1, 0.3, 1)',
         padding: scrolled ? '12px 0' : '20px 0',
-        background: scrolled ? 'rgba(7, 7, 11, 0.85)' : 'transparent',
+        background: scrolled ? 'rgba(15, 23, 42, 0.85)' : 'transparent',
         backdropFilter: scrolled ? 'blur(20px)' : 'none',
         WebkitBackdropFilter: scrolled ? 'blur(20px)' : 'none',
         borderBottom: scrolled ? '1px solid rgba(255, 255, 255, 0.08)' : '1px solid transparent',
